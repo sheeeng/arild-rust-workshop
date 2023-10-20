@@ -2,8 +2,7 @@
 
 use std::{f32, thread};
 
-use crossbeam::crossbeam_channel;
-use crossbeam_channel::unbounded;
+use crossbeam::channel::unbounded;
 
 use crate::tsp::{
     calculate_distance, calculate_distance_optimized, find_shortest_route, generate_routes,
