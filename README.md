@@ -13,3 +13,5 @@ The following steps should be completed before the workshop:
 4. Import project to IDE. Verify that code completion is available.
     - IntelliJ plugin: https://plugins.jetbrains.com/plugin/22407-rust
     - Visual Studio Code: https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
+5. (Optional) Rust Rover - standalone IDE from JetBrains
+   - Public preview: https://www.jetbrains.com/rust/
