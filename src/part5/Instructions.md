@@ -8,6 +8,11 @@ skeleton in this folder.
 The main.rs file is riddled with typos. See if you can fix it and get it up and
 running with `cargo run`.
 
+There's also some missing dependencies in the Cargo.toml file. See if you can
+find them and install them to the project using `cargo add X Y Z`!
+
+> Hint: https://docs.rs/axum/latest/axum/#required-dependencies
+
 The goal is to be able to access `localhost:3000` and receive a "Hello future
 Rust developers!!" in a header tag.
 
