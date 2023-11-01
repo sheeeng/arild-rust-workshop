@@ -49,12 +49,13 @@ impl WebState {
     }
 }
 
+// Get the fibonacci sequence of provided size. If you didn't solve this in a previous part, you
+// can find the code for this in solution/web_state.rs
+fn fibonacci(size: u64) -> Vec<u64> {
+    unimplemented!()
+}
+
 // Bonus: Implement custom display trait for WebState
 // Goal: When println! is called on WebState, it should print out:
 // `The last fibonacci number requested is: {}. Since the server was spawned, you've requested a
 // total of {} number of fibonacci numbers`
-
-// Get the fibonacci sequence of provided size
-fn fibonacci(size: u64) -> Vec<u64> {
-    unimplemented!()
-}

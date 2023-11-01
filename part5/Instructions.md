@@ -11,10 +11,11 @@ running with `cargo run`.
 There's also some missing dependencies in the Cargo.toml file. See if you can
 find them and install them to the project using `cargo add X Y Z`!
 
-> Hint: https://docs.rs/axum/latest/axum/#required-dependencies
+> Hint: https://docs.rs/axum/latest/axum/#required-dependencies Hint2: The
+> target Cargo.toml can be found in solution/Cargo.toml
 
 The goal is to be able to access `localhost:3000` and receive a "Hello future
-Rust developers!!" in a header tag.
+Rust developers?!" in a header tag.
 
 ## 2. Implement function `get_fib_at_nth` for struct WebState
 
@@ -38,7 +39,7 @@ numbers you've received so far, implement the handler for fib_log.
 
 Then add the route to the app router in the main function.
 
-## BONUS. Implement the trait "Display" to the WebState struct
+## BONUS - Implement the trait "Display" to the WebState struct
 
 If you've raced through the previous tasks, you can try at implementing the
 Display trait for the WebState struct. Use this page in "Rust by Example" as
