@@ -36,7 +36,7 @@ fn tsp_sequential() -> f32 {
 }
 
 // TASK 1: Parallelize TSP with threads and channels
-// crossbeam channel documentation: https://docs.rs/crossbeam/0.7.3/crossbeam/channel/index.html
+// crossbeam channel documentation: https://docs.rs/crossbeam/0.8.2/crossbeam/channel/index.html
 fn tsp_parallel() -> f32 {
     unimplemented!();
 }
