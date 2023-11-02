@@ -20,6 +20,14 @@ fn concat_strings(tuple: (&str, &str)) -> String {
     unimplemented!()
 }
 
+fn calculate_adjusted_salary(base_salary: i32, adjustment: i32) -> i32 {
+     unimplemented!();
+}
+
+fn format_person_info(person: (&str, i32)) -> String {
+    unimplemented!();
+}
+
 #[cfg(test)]
 mod tests {
     // Note this useful idiom: importing names from outer (for mod tests) scope.
@@ -52,4 +60,16 @@ mod tests {
     fn test_concat_strings() {
         assert_eq!(concat_strings(("John", " Smith")), "John Smith");
     }
+
+    #[test]
+    fn test_adjust_salary() {
+        assert_eq!(calculate_adjusted_salary(50_000, 10_000), 60_000);
+        assert_eq!(calculate_adjusted_salary(60_000, -10_000), 50_000);
+    }
+
+    #[test]
+    fn test_format_person_info() {
+        assert_eq!(format_person_info(("Frederik", 36)), "Name: Frederik, Age: 36");
+    }
+
 }
