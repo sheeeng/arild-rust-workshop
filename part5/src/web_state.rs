@@ -57,5 +57,5 @@ fn fibonacci(size: u64) -> Vec<u64> {
 
 // Bonus: Implement custom display trait for WebState
 // Goal: When println! is called on WebState, it should print out:
-// `The last fibonacci number requested is: {}. Since the server was spawned, you've requested a
-// total of {} number of fibonacci numbers`
+// `The last fibonacci number requested was: {}. Since the server was spawned, you've requested a
+// total of {} fibonacci numbers`

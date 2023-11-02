@@ -33,6 +33,11 @@ fn duplicate(elements: Vec<i32>) -> Vec<i32> {
     unimplemented!()
 }
 
+// Get fibonacci number from sequence at n size
+fn fibonacci(nth: u32) -> u32 {
+    unimplemented!()
+}
+
 #[derive(Debug, PartialEq)]
 struct Person {
     name: String,
@@ -126,5 +131,13 @@ mod tests {
 
     fn over_age_30(person: &Person) -> bool {
         person.age > 30
+    }
+
+    #[test]
+    fn test_fibonacci() {
+        assert_eq!(fibonacci(1), 0);
+        assert_eq!(fibonacci(2), 1);
+        assert_eq!(fibonacci(12), 89);
+        assert_eq!(fibonacci(20), 4181);
     }
 }
