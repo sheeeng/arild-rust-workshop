@@ -21,6 +21,13 @@ The following steps should be completed before the workshop:
      https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
 5. (Optional) Rust Rover - standalone IDE from JetBrains
    - Public preview: https://www.jetbrains.com/rust/
+6. (Optional) Cargo watch - watch for file changes and runs the command again
+    ```bash
+    cargo install cargo-watch
+    ```
+   ```bash
+   cargo watch -x "test partX" // x is part
+   ```
 
 - If you encounter `linker 'cc' not found` error while trying to install Rust,
   try to install build-essentials first:
